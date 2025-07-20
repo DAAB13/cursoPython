@@ -3,7 +3,7 @@
 
 print('Conversión de tipos')
 
-# print(2+int("100"))
+print(2+int("100"))
 # print('100'+str(13))
 
 # print(type(float(3.1416)))
