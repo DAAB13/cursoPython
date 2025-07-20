@@ -18,6 +18,7 @@ else:
   print("eres menor de edad")
 """
 
+""""
 print("\nSentencia condicional con elif")
 nota = 6
 
@@ -29,3 +30,20 @@ elif nota >= 5:
   print("aprobado")
 else:
   print("desaprobado")
+"""
+
+###condiciones multiples
+
+age = 10
+tiene_Carnet = False
+""""
+if age >= 18 and tiene_Carnet:
+  print("puedes conducir")
+else:
+  print("no puedes conducir")
+"""
+
+if age >= 18 or tiene_Carnet:
+  print("puedes conducir")
+else:
+  print("no puedes conducir")
