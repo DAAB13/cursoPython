@@ -2,6 +2,9 @@
 Sentencias condicionales (if, elif, else)
 permite ejercutar bloques de código solo si se cumplen ciertas condiciones.
 """
+
+import os
+os.system("clear")
 """
 print("\nSentencia simple condicional")
 age = 18
@@ -33,17 +36,43 @@ else:
 """
 
 ###condiciones multiples
-
+""""
 age = 10
 tiene_Carnet = False
-""""
+
 if age >= 18 and tiene_Carnet:
   print("puedes conducir")
 else:
   print("no puedes conducir")
-"""
 
 if age >= 18 or tiene_Carnet:
   print("puedes conducir")
 else:
-  print("no puedes conducir")
+  print("llama a la policia")
+
+fin_de_semana = True
+if not fin_de_semana:
+  print("puedes dormir hasta tarde")
+else:
+  print("debes ir a trabajar")
+"""
+
+# print("anidar condicionales")
+age = 19
+tiene_dinero = True
+
+if age >= 18:
+  if tiene_dinero:
+    print("puedes comprar una cerveza")
+  else:
+    print("mejorar ahorra dinero")
+else:
+  print("no puedes comprar una cerveza, eres menor de edad")
+
+
+if age < 18:
+  print("no puedes comprar una cerveza, eres menor de edad")
+elif tiene_dinero:
+  print("puedes comprar una cerveza")
+else:
+  print("mejorar ahorra dinero")
