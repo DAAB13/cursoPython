@@ -57,6 +57,8 @@ else:
   print("debes ir a trabajar")
 """
 
+
+"""
 # print("anidar condicionales")
 age = 19
 tiene_dinero = True
@@ -76,3 +78,18 @@ elif tiene_dinero:
   print("puedes comprar una cerveza")
 else:
   print("mejorar ahorra dinero")
+"""
+
+#nunmber = 5
+#if nunmber:
+#  print("el número es positivo")
+
+number = 0
+if number:
+  print("no entraras nunca")
+
+
+#condicion ternaria
+age = 17
+mensaje = "eres mayor de edad" if age >= 18 else "eres menor de eedad"
+print(mensaje)
