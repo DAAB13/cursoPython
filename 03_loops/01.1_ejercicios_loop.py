@@ -159,6 +159,56 @@ while producto <= 10:
 # Un número es primo si es divisible por sólo uno de los números enteros entre 1 y él mismo, incluido.
 
 
-# prueba
-# intento definitivo
 
+### MINI PROYECTO -----------------------
+
+""" 
+Crea un programa que muestre un menú de opciones y se repita hasta que el usuario elija "salir".
+
+Comportamiento esperado:
+
+--- MENÚ ---
+1. Saludar
+2. Contar hasta 5
+3. Salir
+Elige una opción: 1
+¡Hola, qué tal!
+
+--- MENÚ ---
+1. Saludar
+2. Contar hasta 5
+3. Salir
+Elige una opción: 2
+1
+2
+3
+4
+5
+
+--- MENÚ ---
+1. Saludar
+2. Contar hasta 5
+3. Salir
+Elige una opción: 3
+Adiós. 
+"""
+while True:
+  print("1. Saludar")
+  print("2. Contar hasta 5")
+  print("3. Salir")
+
+  opcion = input("escoge la opción: ")
+
+  if opcion == "1":
+    print("hola q tal?")
+  elif opcion == "2":
+    print("___contando___")
+    contador = 1
+    while contador <= 5:
+      print(contador)
+      contador += 1
+  elif opcion == "3":
+    print("good bye")
+    break
+  else:
+    print("error - opción no valida. escoger '1' o '2' o '3'")
