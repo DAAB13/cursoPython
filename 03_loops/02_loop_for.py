@@ -27,7 +27,7 @@ numeros = [1, 2, 3]
 for l in letras:
   for n in numeros:
     print(f"{l}{n}")
-"""
+
 
 # break
 print(f"\n____break____")
@@ -47,5 +47,14 @@ for idx, animal in enumerate(animales):
     continue
   print(animal)
 print("'se salto el loro'")
+"""
 
 
+#comprensión de listas (list comprehension)
+animales = ["perro", "gato", "ratón", "loro", "pez", "canario"]
+animales_mayus = [a.upper() for a in animales]
+print(animales_mayus)
+
+# muestra los números pares de una lista
+pares = [b for b in [1, 2, 3, 4, 5, 6] if b % 2 == 0]
+print(pares) 
