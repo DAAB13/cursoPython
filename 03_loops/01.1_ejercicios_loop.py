@@ -159,10 +159,4 @@ while producto <= 10:
 # Un número es primo si es divisible por sólo uno de los números enteros entre 1 y él mismo, incluido.
 
 
-while True:
-  try:
-    n = int(input("introduce un entero positivo > a 1"))
-  except ValueError:
-    print()
-
-
+# prueba
