@@ -71,3 +71,4 @@ while num <= 0:
   except:
     print("tienes que ingresar un número si o si")
 print(f"el número ingreso es: {num}")
+

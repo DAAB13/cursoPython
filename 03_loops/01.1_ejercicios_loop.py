@@ -163,4 +163,5 @@ while True:
   try:
     n = int(input("introduce un entero positivo > a 1"))
   except ValueError:
-    
+    print()
+
