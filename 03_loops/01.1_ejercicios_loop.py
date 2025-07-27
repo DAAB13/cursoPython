@@ -83,7 +83,7 @@ except ValueError:
 # La contraseña debe tener al menos 8 caracteres.
 # Usa un bucle while para seguir pidiendo la contraseña hasta que cumpla con los requisitos.
 # Si la contraseña es válida, imprime "Contraseña válida".
-
+""" 
 contraseña = "diego"
 login = ""
 
@@ -92,3 +92,75 @@ while login != contraseña:
   if login != contraseña:
     print("intentalo de nuevo")
 print("contraseña valida")
+"""
+
+# Ejercicio 4: Validación de contraseña
+# Pide al usuario que introduzca una contraseña.
+# La contraseña debe tener al menos 8 caracteres.
+# Usa un bucle while para seguir pidiendo la contraseña hasta que cumpla con los requisitos.
+# Si la contraseña es válida, imprime "Contraseña válida".
+""" 
+contraseña = ""
+
+while len(contraseña) < 8:
+  contraseña = input("introduce una contraseña (min 8 caracteres)\n")
+  if len(contraseña) < 8:
+    print("incorrecto: al menos debe tener 8 caracteres")
+print("contraseña valida") 
+"""
+
+""" 
+while True:
+  contraseña = input("introduce la constraseña\n")
+  if len(contraseña) >= 8:
+    print("contraseña valida")
+    break
+  else:
+    print("la contraseña debe tener al menos 8 caracteres") 
+"""
+
+# Ejercicio 5: Tabla de multiplicar
+# Pide al usuario que introduzca un número.
+# Imprime la tabla de multiplicar de ese número (del 1 al 10) usando un bucle while.
+
+"""
+try:
+  num = int(input("introduce un número: "))
+  producto = 1
+
+  while producto <= 10:
+    resultado = num * producto
+    print(f"{num} x {producto} = {resultado}")
+    producto += 1
+except ValueError:
+  print("error: introduce un número") 
+"""
+
+
+"""
+while True:
+  try:
+    num = int(input("introduce un número: \n"))
+    break
+  except ValueError:
+    print("introduce un número entero\n")
+
+print(f"\n------tabla de multiplicar para el número: {num} --------\n")
+producto = 1
+while producto <= 10:
+  resultado = num * producto
+  print(f"{num} x {producto} = {resultado}")
+  producto += 1
+"""
+
+# Ejercicio 6: Números primos hasta N
+# Pide al usuario que introduzca un número entero positivo N.
+# Imprime todos los números primos menores o iguales que N usando un bucle while.
+# Un número es primo si es divisible por sólo uno de los números enteros entre 1 y él mismo, incluido.
+
+
+while True:
+  try:
+    n = int(input("introduce un entero positivo > a 1"))
+  except ValueError:
+    
