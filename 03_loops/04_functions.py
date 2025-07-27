@@ -59,7 +59,9 @@ describir_personas("diego", 34, "hombre")
 
 # argumentos por clave
 # parametros nombrados
+""" 
 def persona(nombre = "diego", edad = 34, sexo = "hombre"):
   print(f"Nombre: {nombre}, Edad: {edad}, Sexo: {sexo}")
 
 persona()
+"""
