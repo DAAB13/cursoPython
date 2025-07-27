@@ -28,15 +28,38 @@ saludar_a("thiago")
 
 
 # funciones con más parámetros
-
+""" 
 def la_suma(a, b):
   suma = a + b
   return suma
 
 result = la_suma(2, 3)
-print(result)
+print(result) """
 
 # documentar las funciones con docstring
-def la_resta(a, b):
-  """Resta dos números y retorna el resultado"""
-  return a - b
+
+# def la_resta(a, b):
+#   """Resta dos números y retorna el resultado"""
+#   return a - b
+
+
+# parámetros por defecto
+""" 
+def multiplicar(a, b = 2):
+  return a * b
+"""
+
+# argumentos por posición
+""" 
+def describir_personas(nombre, edad, sexo):
+  print(f"nombre => {nombre}   edad => {edad}   sexo => {sexo}")
+
+describir_personas("diego", 34, "hombre")
+"""
+
+# argumentos por clave
+# parametros nombrados
+def persona(nombre = "diego", edad = 34, sexo = "hombre"):
+  print(f"Nombre: {nombre}, Edad: {edad}, Sexo: {sexo}")
+
+persona()
