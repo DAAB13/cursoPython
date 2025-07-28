@@ -81,6 +81,16 @@ except ValueError:
 # Usa un bucle while para seguir pidiendo la contraseña hasta que cumpla con los requisitos.
 # Si la contraseña es válida, imprime "Contraseña válida".
 """ 
+while True:
+  contraseña = input("introduce la contraseña: ")
+  if len(contraseña) >= 8:
+    print("----contraseña valida----")
+    break
+  else:
+    print("Error: faltan caracteres")
+"""
+
+""" 
 contraseña = "diego"
 login = ""
 
@@ -119,21 +129,6 @@ while True:
 # Ejercicio 5: Tabla de multiplicar
 # Pide al usuario que introduzca un número.
 # Imprime la tabla de multiplicar de ese número (del 1 al 10) usando un bucle while.
-
-n = int(input("introduce el número para crear la tabla de multiplicar\n"))
-producto = 1
-
-while producto <= 10:
-  resultado = n * producto
-  producto += 1
-  o
-
-
-
-
-
-
-
 
 """
 try:
