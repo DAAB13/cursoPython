@@ -65,3 +65,23 @@ def persona(nombre = "diego", edad = 34, sexo = "hombre"):
 
 persona()
 """
+
+# Argumentos de longitud de variable (*args)
+""" 
+def la_suma(*args):
+  suma_n = 0
+  for n in args:
+    suma_n += n
+  return suma_n
+
+print(la_suma(3,4,5))
+print(la_suma(*range(10, 12)))
+"""
+
+# argumentos de clave-valor variable (**kwarg)
+
+def mostrar_info(**kwargs):
+  for clave, valor in kwargs.items():
+    print(f"{clave}: {valor}")
+
+mostrar_info(nombre="Thiago", edad=3, sexo="masculino")

@@ -54,7 +54,9 @@ print(lista_1[centro])
 # Dada una lista, invierte solo la primera mitad de la lista (utilizando slicing y concatenación).
 # Ejemplo: lista = [1, 2, 3, 4, 5, 6] -> Resultado: [3, 2, 1, 4, 5, 6]
 
+""" 
 lista_a = [1, 2, 3, 4, 5, 6]
 mitad = len(lista_a) // 2
 lista_2 = lista_a[:mitad][::-1] + lista_a[mitad:]
-print(lista_2)
+print(lista_2) 
+"""

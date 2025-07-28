@@ -30,7 +30,8 @@ lista_b.clear()
 
 print("lista A: ", lista_a)
 print("lista B: ", lista_b)
- """
+
++"""
 
 # Ejercicio 3: Slicing y eliminación con del
 # Crea una lista con los números del 1 al 10.
@@ -87,12 +88,13 @@ print(referencia)
 # Ejercicio 6: Ordenar strings sin diferenciar mayúsculas y minúsculas.
 # Crea una lista con las siguientes cadenas: ["Manzana", "pera", "BANANA", "naranja"].
 # Ordena la lista sin diferenciar entre mayúsculas y minúsculas.
-
+""" 
 string = ["Manzana", "pera", "BANANA", "naranja", "arandano"]
 string.sort(key=str.lower)
 
 
 print(f"la lista ordenada es: {string}")
+"""
 
 
 

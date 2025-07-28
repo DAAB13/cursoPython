@@ -1,6 +1,6 @@
 # Ejercicio
-# scribe un programa que use un bucle while para contar y mostrar en pantalla los números del 1 al 5, cada uno en una línea nueva.
-
+# escribe un programa que use un bucle while para contar y mostrar en pantalla los números del 1 al 5,
+# cada uno en una línea nueva.
 """
 a = 1
 
@@ -11,10 +11,10 @@ while a <= 5:
 
 
 # Ejercicio
-#  Crea un programa que guarde una "palabra secreta" (por ejemplo, "python"). 
+# Crea un programa que guarde una "palabra secreta" (por ejemplo, "python"). 
 # El programa debe pedirle al usuario que adivine la palabra. 
-# Mientras el usuario no escriba la palabra secreta correcta, el programa debe seguir pidiéndosela una y otra vez.
-
+# Mientras el usuario no escriba la palabra secreta correcta, 
+# el programa debe seguir pidiéndosela una y otra vez.
 """ 
 secret = "python"
 intento = ""
@@ -41,10 +41,7 @@ print("listo!")
 
 # Ejercicio 2: Suma de números pares (while)
 # Calcula la suma de los números pares entre 1 y 20 (inclusido el 20) usando un bucle while.
-
-""" 
-a = 1
-suma = 0
+""" la_suma 1 la_suma = 0
 
 while a <= 20:
   if a % 2 == 0:
@@ -123,6 +120,21 @@ while True:
 # Pide al usuario que introduzca un número.
 # Imprime la tabla de multiplicar de ese número (del 1 al 10) usando un bucle while.
 
+n = int(input("introduce el número para crear la tabla de multiplicar\n"))
+producto = 1
+
+while producto <= 10:
+  resultado = n * producto
+  producto += 1
+  o
+
+
+
+
+
+
+
+
 """
 try:
   num = int(input("introduce un número: "))
@@ -192,6 +204,8 @@ Elige una opción: 2
 Elige una opción: 3
 Adiós. 
 """
+
+""" 
 while True:
   print("1. Saludar")
   print("2. Contar hasta 5")
@@ -212,3 +226,4 @@ while True:
     break
   else:
     print("error - opción no valida. escoger '1' o '2' o '3'")
+"""

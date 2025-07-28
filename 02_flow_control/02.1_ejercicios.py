@@ -16,6 +16,8 @@ elif num1 < num2:
 else:
   print(f"el número {num2} es igual al número {num1}")
 """
+
+
 # Ejercicio 2: Calculadora simple
 # Pide al usuario dos números y una operación (+, -, *, /)
 """
@@ -68,7 +70,7 @@ except ValueError:
 # - Adulto (18-64 años)
 # - Adulto mayor (65 años o más)
 
-
+""" 
 try:
   age = int(input("introduce una edad: "))
 
@@ -86,3 +88,4 @@ try:
     print("introduce un número positivo")
 except ValueError:
   print("error: introduce un número")
+"""
