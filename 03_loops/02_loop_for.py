@@ -9,15 +9,16 @@ for frutas in frutas:
 word = "Thiago"
 for a in word:
   print(a)
-
 """
+
+
 
 # enumerate()
-""" 
+
 frutas = ["mandarina", "manzana", "pera"]
-for b, a in enumerate(frutas): # a = indice ; b = valoe
+for b, a in enumerate(frutas): # a = indice ; b = valor
   print(f"el indice es {b} y la fruta es {a}")
-"""
+
 
 #bucles anidados
 """ 
