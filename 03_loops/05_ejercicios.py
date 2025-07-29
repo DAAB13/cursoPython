@@ -151,7 +151,7 @@ print(total_vocales)
 
 # Pista: Usa un bucle while que se ejecute mientras el intento del usuario sea diferente del numero_secreto. 
 # No te olvides de convertir la entrada del usuario (input) a un número entero.
-
+""" 
 def juego_adivina(numero_secreto):
   while True:
     try:
@@ -167,4 +167,5 @@ def juego_adivina(numero_secreto):
       print("Error: debes introducir un número valido")
     
 num_oculto = 23
-juego_adivina(num_oculto)
+juego_adivina(num_oculto) """
+
