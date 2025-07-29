@@ -35,3 +35,24 @@ def operacion_basica(num_1, num_2, operador):
 
 resultado = operacion_basica(2, 3, "-")
 print(resultado)
+
+
+
+### Ejercicio 2: Generador de Listas
+# Objetivo: Usar un bucle for y range dentro de una función para crear y devolver una lista.
+
+# Enunciado:
+# Escribe una función llamada generar_lista_pares(limite).
+
+# Debe aceptar un número entero, limite, como argumento.
+
+# La función debe devolver una nueva lista que contenga todos los números pares 
+# desde el 0 hasta el limite (incluido).
+
+# Pista: Inicializa una lista vacía. Luego, usa un bucle for con range() para recorrer los números. 
+# Con un if, comprueba si el número es par y, si lo es, añádelo a la lista.
+
+def generar_lista_pares(limite):
+  lista_pares = []
+  for ind in range(limite + 1):
+    
