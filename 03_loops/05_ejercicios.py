@@ -51,8 +51,3 @@ print(resultado)
 
 # Pista: Inicializa una lista vacía. Luego, usa un bucle for con range() para recorrer los números. 
 # Con un if, comprueba si el número es par y, si lo es, añádelo a la lista.
-
-def generar_lista_pares(limite):
-  lista_pares = []
-  for ind in range(limite + 1):
-    
