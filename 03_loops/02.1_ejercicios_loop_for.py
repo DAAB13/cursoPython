@@ -10,6 +10,15 @@ for a in range(2, 21, 2):
 # numeros = [10, 20, 30, 40, 50]
 # Calcula la media de los números usando un bucle for.
 """ 
+list_1 = [10, 20, 30, 40, 50]
+la_suma = 0
+for idx in list_1:
+  la_suma += idx
+media = la_suma / len(list_1)
+print(media) 
+"""
+
+""" 
 numeros = [10, 20, 30, 40, 50]
 suma = 0
 
@@ -58,11 +67,19 @@ print(f"otra forma de optener las palabras mayores de 5 caracteres es asi: {othe
 # palabras = ["casa", "arbol", "sol", "elefante", "luna", "coche"]
 # Pide al usuario que introduzca una letra.
 # Cuenta cuántas palabras en la lista empiezan con esa letra (sin diferenciar mayúsculas/minúsculas).
-
+""" 
 palabras = ["casa", "arbol", "sol", "elefante", "luna", "coche"]
 letra = input("introduce la letra: ")
 contador = 0
 for word in palabras:
   if word.lower().startswith(letra):
     contador += 1
-print()
+print(contador) 
+"""
+
+lista_1 = ["casa", "arbol", "sol", "elefante", "luna", "coche"]
+letra = input("introduce la letra para el filtrar la lista: ")
+
+filtro = [idx for idx in lista_1 if idx.lower().startswith(letra.lower())]
+print(filtro)
+
