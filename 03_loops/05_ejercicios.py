@@ -53,6 +53,34 @@ print(resultado)
 """ 
 def generar_lista_pares(limite):
   lista_pares = []
+  for idx in range(1,limite + 1):
+    if idx % 2 == 0:
+      lista_pares.append(idx)
+  return lista_pares
+
+limite_10 = generar_lista_pares(10)
+print(limite_10)
+"""   
+
+def generar_lista_pares(limite):
+  return list(range(0, limite + 1, 2))
+limite_13 = generar_lista_pares(13)
+print(limite_13)
+
+
+
+
+
+
+
+
+
+
+
+
+""" 
+def generar_lista_pares(limite):
+  lista_pares = []
   for ind in range(limite + 1):
     if ind % 2 == 0:
       lista_pares.append(ind)
