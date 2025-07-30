@@ -50,33 +50,6 @@ print(resultado)
 
 # Pista: Inicializa una lista vacía. Luego, usa un bucle for con range() para recorrer los números. 
 # Con un if, comprueba si el número es par y, si lo es, añádelo a la lista.
-""" 
-def generar_lista_pares(limite):
-  lista_pares = []
-  for idx in range(1,limite + 1):
-    if idx % 2 == 0:
-      lista_pares.append(idx)
-  return lista_pares
-
-limite_10 = generar_lista_pares(10)
-print(limite_10)
-"""   
-
-def generar_lista_pares(limite):
-  return list(range(0, limite + 1, 2))
-limite_13 = generar_lista_pares(13)
-print(limite_13)
-
-
-
-
-
-
-
-
-
-
-
 
 """ 
 def generar_lista_pares(limite):
@@ -102,6 +75,7 @@ print(lista_hasta_13)
 
 # Enunciado:
 # Escribe una función llamada pedir_edad().
+
 # La función no debe aceptar ningún argumento.
 # Debe pedirle al usuario que introduzca su edad con el mensaje: "Por favor, introduce tu edad: ".
 # El bucle debe repetirse hasta que el usuario introduzca un número entero válido.
@@ -113,6 +87,17 @@ print(lista_hasta_13)
 
 # Pista: Usa un bucle while True. Dentro, usa un bloque try para intentar convertir la entrada del input() a int. 
 # Si falla, el bloque except ValueError se activará. Si tiene éxito, usa return para devolver el número y salir del bucle.
+
+
+
+
+
+
+
+
+
+
+
 
 """ 
 print("---AGE---")
